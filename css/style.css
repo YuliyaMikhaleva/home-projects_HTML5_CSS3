@@ -355,7 +355,7 @@ details[open]>summary:before{
 
 .buy{
   width: 100%;
-  padding: 50px 100px 50px 145px;
+  padding: 50px 145px 50px 145px;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -379,10 +379,14 @@ details[open]>summary:before{
   background-color: #445162;
   border-radius: 5px;
   width: 300px;
-  padding: 16px 0 20px 0;
+  padding: 0 0 20px 0;
   margin: 0 45px 0 0;
 }
 
+.buy-card:last-child {
+  margin: 0;
+  }
+  
 .buy-card-subtitle{
   font-size: 24px;
   line-height: 23px;
@@ -390,6 +394,8 @@ details[open]>summary:before{
   color: #ffffff;
   text-align: center;
   margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .buy-card-price{
@@ -399,9 +405,10 @@ details[open]>summary:before{
   line-height: 30px;
   font-weight: 400;
   color: #445162;
-  padding: 18px 106px 18px 107px;
+  padding: 18px;
+  box-sizing: border-box;
   text-align: center;
-  margin: 17px 0 19px 0;
+  margin: 0;
   
 }
 
@@ -411,8 +418,9 @@ details[open]>summary:before{
   font-weight: 400;
   color: #ffffff;
   list-style-position: inside;
-  margin: 0;
-  padding: 0 38px 18px 20px ;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
 }
 
 .buy-card-button{
@@ -422,12 +430,12 @@ details[open]>summary:before{
   font-weight: 700;
   color: #445161;
   width: 260px;
-  height: 40px;
+  min-height: 40px;
   background-color: #ffffff;
   box-sizing: border-box;
   border-radius: 10px;
   text-transform: uppercase;
-  margin: auto;
+  margin: 20px auto 0 auto;
   border: 0;
 }
 

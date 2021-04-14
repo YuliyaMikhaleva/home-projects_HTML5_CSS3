@@ -463,6 +463,7 @@ details[open]>summary:before{
   min-height: 509px;
   padding: 53px 246px 49px 249px;
   margin: 0;
+  
 }
 
 .page-footer-contacts-title{
@@ -474,6 +475,9 @@ details[open]>summary:before{
 }
 
 .page-footer-contacts-form{
+  width: 500px;
+  border: 1px solid #000;
+  box-sizing: border-box;
  margin: 0 45px 0 0;
 }
 
@@ -535,3 +539,51 @@ color: #445162;
   text-transform: uppercase;
   color: #445162;
 }
+
+.page-footer-contacts-ikons{
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 240px;
+}
+
+.page-footer-contacts-ikons-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer-contacts-ikons-list-element{
+  margin: 0 0 19px 29px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+}
+
+.page-footer-contacts-ikons-list-element::before{
+  content: "";
+  display: block;
+  border: 1px solid #000;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: -29px;
+}
+
+.page-footer-contacts-ikons-list-element:last-child {
+  margin: 0 0 32px 29px;
+  }
+
+.page-footer-contacts-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer-contacts-links-child{
+  display: block;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #000;
+}
+

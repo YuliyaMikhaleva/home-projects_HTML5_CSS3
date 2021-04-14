@@ -460,13 +460,17 @@ details[open]>summary:before{
 
 .page-footer-contacts{
   background-color: #445162;
-  min-height: 509px;
+  
   padding: 53px 246px 49px 249px;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
   
 }
 
 .page-footer-contacts-title{
+  width: 100%;
+  text-align: center;
   font-size: 30px;
   line-height: 24px;
   font-weight: 400;
@@ -476,9 +480,7 @@ details[open]>summary:before{
 
 .page-footer-contacts-form{
   width: 500px;
-  border: 1px solid #000;
-  box-sizing: border-box;
- margin: 0 45px 0 0;
+  margin: 0 45px 0 0;
 }
 
 .page-footer-contacts-form-name{
@@ -526,7 +528,7 @@ color: #445162;
 
 .page-footer-contacts-form-btn{
   display: block;
-  margin: 0;
+  margin: 0 auto;
   width: 140px;
   min-height: 40px;
   border: none;
@@ -541,8 +543,7 @@ color: #445162;
 }
 
 .page-footer-contacts-ikons{
-  border: 1px solid #000;
-  box-sizing: border-box;
+
   width: 240px;
 }
 
@@ -564,7 +565,7 @@ color: #445162;
 .page-footer-contacts-ikons-list-element::before{
   content: "";
   display: block;
-  border: 1px solid #000;
+  border: 1px solid white;
   width: 26px;
   height: 26px;
   position: absolute;
@@ -584,6 +585,14 @@ color: #445162;
   display: block;
   width: 42px;
   height: 42px;
-  border: 1px solid #000;
+  border: 1px solid white;
 }
 
+  .page-footer-copyright{
+  background-color: #f5f5f5;
+  color: #445162;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+  min-height: 26px;
+  }

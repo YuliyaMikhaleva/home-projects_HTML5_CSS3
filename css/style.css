@@ -103,7 +103,7 @@ body{
 
 .content{
   width: 100%;
-  min-height: 2863px;
+  /* min-height: 2863px; */
   background-color: white;
 }
 /* about-product start */
@@ -450,3 +450,88 @@ details[open]>summary:before{
 }
 
 /* buy end*/
+
+/* footer start*/
+
+.page-footer{
+  min-height: 535px;
+  margin: 0;
+}
+
+.page-footer-contacts{
+  background-color: #445162;
+  min-height: 509px;
+  padding: 53px 246px 49px 249px;
+  margin: 0;
+}
+
+.page-footer-contacts-title{
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 31px 0;
+}
+
+.page-footer-contacts-form{
+ margin: 0 45px 0 0;
+}
+
+.page-footer-contacts-form-name{
+width: 500px;
+height: 40px;
+border: none;
+margin: 0 0 21px 0;
+padding: 14px 10px;
+box-sizing: border-box;
+border-radius: 5px;
+font-size: 16px;
+line-height: 16px;
+font-weight: 400;
+color: #445162;
+}
+
+.page-footer-contacts-form-email{
+width: 500px;
+height: 40px;
+border: none;
+margin: 0 0 21px 0;
+padding: 14px 10px;
+box-sizing: border-box;
+border-radius: 5px;
+font-size: 16px;
+line-height: 16px;
+font-weight: 400;
+color: #445162;
+}
+
+.page-footer-contacts-form-msg{
+width: 500px;
+height: 170px;
+border: none;
+margin: 0 0 21px 0;
+padding: 14px 10px;
+box-sizing: border-box;
+border-radius: 5px;
+font-family: arial;
+font-size: 16px;
+line-height: 16px;
+font-weight: 400;
+color: #445162;
+}
+
+.page-footer-contacts-form-btn{
+  display: block;
+  margin: 0;
+  width: 140px;
+  min-height: 40px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #445162;
+}

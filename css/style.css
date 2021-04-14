@@ -460,7 +460,7 @@ details[open]>summary:before{
 
 .page-footer-contacts{
   background-color: #445162;
-  
+ 
   padding: 53px 246px 49px 249px;
   margin: 0;
   display: flex;
@@ -481,6 +481,12 @@ details[open]>summary:before{
 .page-footer-contacts-form{
   width: 500px;
   margin: 0 45px 0 0;
+}
+
+input:focus, 
+textarea:focus{
+  outline: 3px solid black;
+  border-radius: 5px;
 }
 
 .page-footer-contacts-form-name{
@@ -542,8 +548,17 @@ color: #445162;
   color: #445162;
 }
 
-.page-footer-contacts-ikons{
+.page-footer-contacts-form-btn:hover{
+  background-color: grey;
+  color: #ffffff;
+}
 
+.page-footer-contacts-form-btn:active{
+  background-color: #ffffff;
+  color: #445161;
+}
+
+.page-footer-contacts-ikons{
   width: 240px;
 }
 

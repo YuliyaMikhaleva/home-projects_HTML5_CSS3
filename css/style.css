@@ -143,14 +143,13 @@ box-sizing: border-box;
   margin: 0;
 }
 
-.about-product-img{
+.about-product-video{
   display:block;
   width: 431px;
   height: 246px;
   float: right;
   margin: 0;
-  background-image: url(../img/about_product_img.png);
-}
+  }
 
 /* about-product end */
 
@@ -490,46 +489,46 @@ textarea:focus{
 }
 
 .page-footer-contacts-form-name{
-width: 500px;
-height: 40px;
-border: none;
-margin: 0 0 21px 0;
-padding: 14px 10px;
-box-sizing: border-box;
-border-radius: 5px;
-font-size: 16px;
-line-height: 16px;
-font-weight: 400;
-color: #445162;
+  width: 500px;
+  height: 40px;
+  border: none;
+  margin: 0 0 21px 0;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #445162;
 }
 
 .page-footer-contacts-form-email{
-width: 500px;
-height: 40px;
-border: none;
-margin: 0 0 21px 0;
-padding: 14px 10px;
-box-sizing: border-box;
-border-radius: 5px;
-font-size: 16px;
-line-height: 16px;
-font-weight: 400;
-color: #445162;
+  width: 500px;
+  height: 40px;
+  border: none;
+  margin: 0 0 21px 0;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #445162;
 }
 
 .page-footer-contacts-form-msg{
-width: 500px;
-height: 170px;
-border: none;
-margin: 0 0 21px 0;
-padding: 14px 10px;
-box-sizing: border-box;
-border-radius: 5px;
-font-family: arial;
-font-size: 16px;
-line-height: 16px;
-font-weight: 400;
-color: #445162;
+  width: 500px;
+  height: 170px;
+  border: none;
+  margin: 0 0 21px 0;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: arial;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #445162;
 }
 
 .page-footer-contacts-form-btn{

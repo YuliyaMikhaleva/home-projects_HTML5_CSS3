@@ -567,8 +567,40 @@ textarea:focus{
   padding: 0;
 }
 
+.icon-skype{
+  font-family: arial;
+}
+
+.icon-skype:before {
+  width: 26px;
+  height: 26px;
+  font-size: 170%;
+  margin: 0 5px 0 0;
+}
+
+.icon-icq{
+  font-family: arial;
+}
+
+.icon-icq:before {
+  width: 26px;
+  height: 26px;
+  font-size: 170%;
+  margin: 0 5px 0 0;
+}
+
+.icon-at{
+  font-family: arial;
+}
+
+.icon-at:before {
+  width: 26px;
+  height: 26px;
+  font-size: 170%;
+  margin: 0 5px 0 0;
+}
 .page-footer-contacts-ikons-list-element{
-  margin: 0 0 19px 29px;
+  margin: 0 0 19px 0;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -576,20 +608,21 @@ textarea:focus{
   position: relative;
 }
 
-.page-footer-contacts-ikons-list-element::before{
+.page-footer-contacts-ikons-list-element:last-child {
+  margin: 0 0 32px 29px;
+}
+
+.page-footer-contacts-ikons-list-element:last-child:before {
   content: "";
   display: block;
-  border: 1px solid white;
   width: 26px;
   height: 26px;
   position: absolute;
   left: -29px;
+  background-image: url(../img/phone_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-
-.page-footer-contacts-ikons-list-element:last-child {
-  margin: 0 0 32px 29px;
-  }
-
 .page-footer-contacts-links{
   display: flex;
   justify-content: space-between;
@@ -597,9 +630,29 @@ textarea:focus{
 
 .page-footer-contacts-links-child{
   display: block;
-  width: 42px;
+  width: 44px;
   height: 42px;
-  border: 1px solid white;
+  background-image: url(../img/buttons.png);
+}
+
+.page-footer-contacts-links-child:nth-child(1){
+  background-position: 0 0;
+}
+
+.page-footer-contacts-links-child:nth-child(2){
+  background-position: -49px 0;
+}
+
+.page-footer-contacts-links-child:nth-child(3){
+  background-position: -98px 0;
+}
+
+.page-footer-contacts-links-child:nth-child(4){
+  background-position: -147px 0;
+}
+
+.page-footer-contacts-links-child:nth-child(5){
+  background-position: -196px 0;
 }
 
   .page-footer-copyright{
